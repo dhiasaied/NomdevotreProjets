@@ -1,17 +1,9 @@
-note = float(input("Entrez la note : "))
-if note >= 10:
-    print("Admis")
+m=float(input("Donner le moyenne"))
+if(m<7) and (m>=0):
+    print(m,"réfusé")
+elif(m>=7) and (m<10):
+    print(m,"controle")    
+elif(m>=10) and (m<=20):
+    print(m,"admis")
 else:
-    print("Refusé")
-    
-    
-    
-    
-#######Algorithme#######
-#Debut
-#Ecrire("Entrez la note : ")
-#Lire(note)
-#Si note >=10 alors
-#Ecrire ("Admis")
-#Sinon
-#Ecrire("Refusé")
+    print(m,"incorrecte")
